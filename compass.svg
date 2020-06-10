@@ -40,7 +40,7 @@
     }
   </style>
 
-  <path id='directionIndicator' d="M 256 256 L 314 314 L 256 512 L 197 314 Z" />
+  <path id='directionIndicator' d="M 258 0 L 260 256 L 314 314 L 256 512 L 197 314 L 252 256 L 254 0 Z" />
 
   <circle id='face' cx='256' cy='256' r='256'/>
   

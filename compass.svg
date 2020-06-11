@@ -32,6 +32,13 @@
       text-anchor: middle;
       dominant-baseline: middle;
     }
+    .velocityLegend {
+      fill: white;
+      font-size: 1.5em;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      text-anchor: middle;
+    }
     #directionIndicator {
       stroke: white;
       fill: hsla(30, 100%, 50%, 0.85);
@@ -46,8 +53,10 @@
   
   <circle id='centerCircle' cx='256' cy='256' r='82.9' />
 
+  <!-- <text class='velocityLegend' x='256' y='200'>0&deg;</text> -->
   <text id='velocityText' x='256' y='266'>0</text>
-  
+  <text class='velocityLegend' x='256' y='325'>mph</text>
+
   <text x='243' y='28' class='direction text' >N</text>
   <text x='489' y='269' class='direction text' >E</text>
   <text x='243' y='512' class='direction text' >S</text>

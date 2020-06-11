@@ -10,7 +10,7 @@
 
   <style>
     .hidden { display: none; }
-    .direction { fill: white; }
+    .direction { fill: hsla(240, 100%, 90%, 0.5); }
     .text {
       font-weight: bold;
       font-family: 'Courier New', Courier, monospace;
@@ -21,7 +21,7 @@
       fill: url(#faceGradient);
     }
     #centerCircle {
-      fill: hsla(240, 100%, 50%, 0.75);
+      fill: hsla(255, 100%, 50%, 0.75);
     }
     #velocityText {
       font-size: 9rem;
